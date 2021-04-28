@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/main.css" />
+    <title>Public Page</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <a href="/" class="logo"
+          ><img src="../images/logo.png" alt="Micro Focus" class="logo__image"
+        /></a>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="./da/index.php">Digital Airlines</a></li>
+          <li><a href="./" class="active">Public Pages</a></li>
+          <li><a href="../basic">Basic Auth Pages</a></li>
+          <li><a href="../protected">Protected Pages</a></li>
+        </ul>
+      </header>
+      <section class="side">
+        <img src="../images/mf_netiq_lockup_white.png" alt="NetIQ" />
+        <h2>
+          NetIQ <br />Access Manager <br />
+          Resources
+        </h2>
+        <p>Link to Documentation</p>
+        <ul>
+          <li>
+            <a
+              href="https://www.microfocus.com/documentation/access-manager/5.0/"
+              target="_blank"
+              >Online Documentation</a
+            >
+          </li>
+          <li>
+            <a href="https://excs-s5220.excession.org/portal/" target="_blank"
+              >Lab Portal</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://excs-s5220.excession.org:8443/nps/servlet/portalservice"
+              target="_blank"
+              >Lab Administration</a
+            >
+          </li>
+        </ul>
+      </section>
+      <section class="main">
+        <div class="main__image">
+          <img src="../images/Shield_6_700.png" alt="shield" />
+        </div>
+        <h2 class="main__title">Test website for NetIQ Access Manager</h2>
+        <p class="main__text">
+          To test Access Manager before going to production, you need to create
+          and use the following resources:
+        </p>
+        <ul>
+          <li>
+            <p class="main__text">
+              A web server (IIS or Apache). The web server must have three
+              directories with three HTML pages. The first directory (public)
+              must contain a page (such as index.html) for public access. This
+              page needs to provide two links:
+            </p>
+          </li>
+          <li>
+            <p class="main__text">
+              Link to a page in the basic directory. You must already have
+              configured your web server to require basic authentication before
+              allowing access to this page. See your web server documentation
+              for instructions on setting up basic authentication. (This type of
+              access is optional, but explained because it is fairly common.)
+            </p>
+          </li>
+          <li>
+            <p class="main__text">
+              A link to a page in the protected directory. You will configure
+              Access Gateway to require authentication before allowing access to
+              this page. You do not need to configure the web server to protect
+              this page.
+            </p>
+          </li>
+        </ul>
+      </section>
+      <footer>
+        <h4>one excession development lab</h4>
+        <p>&copy; 2021. All Rights Reserved</p>
+      </footer>
+    </div>
+  </body>
+</html>

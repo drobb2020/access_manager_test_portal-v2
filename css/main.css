@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700;900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  min-height: 100vh;
+  font-family: 'Raleway', sans-serif;
+  background: #f5f5f6;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  grid-template-areas:
+    "head head head head"
+    "side main main main"
+    "foot foot foot foot";
+  gap: 1rem;
+}
+.header {
+  width: 100%;
+  grid-area: head;
+  background: #24252a;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 50px;
+}
+.header ul {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  list-style: none;
+}
+.header ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+.header ul li a:hover {
+  color: #0088a9;
+}
+.header ul li a.active {
+  color: #fff;
+  font-weight: bold;
+}
+.side {
+  background: #24252a;
+  grid-area: side;
+  top: 100px;
+  padding: 50px;
+}
+.side h2 {
+  color: #fff;
+  padding-top: 10px;
+}
+.side p {
+  color: #fff;
+  padding: 10px 0px;
+}
+.side ul {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+.side ul li {
+  padding: 5px 0;
+}
+.side ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1rem;
+}
+.side ul li a:hover {
+    color: #0088a9;
+}
+.main {
+  grid-area: main;
+  top: 150px;
+  width: 95%;
+  margin-left: 10px;
+}
+.main__header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main li {
+  margin-left: 20px;
+}
+.main__title {
+  font-size: 1.5rem;
+  font-weight: black;
+  text-transform: uppercase;
+}
+.main__text {
+  font-size: .95rem;
+  font-weight: normal;
+  padding: 5px 0;
+}
+.main__image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main__image img {
+  width: 100px;
+}
+.wrapper.basic {
+  margin: 0;
+  padding-top: 0;
+}
+.wrapper ul {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  list-style: none;
+  padding-top: 25px;
+}
+.wrapper ul li {
+  padding: 5px 0;
+  margin-left: 20px;
+}
+.wrapper ul li a {
+  text-decoration: none;
+  color: #000;
+  font-size: 1.2rem;
+}
+.wrapper ul li a:hover {
+    color: #0088a9;
+}
+footer {
+  width: 45%;
+  margin: auto;
+  grid-area: foot;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+footer h4 {
+  text-transform: uppercase;
+}
