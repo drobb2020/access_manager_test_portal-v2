@@ -1,0 +1,94 @@
+8
+
+dir
+5
+https://forgesvn1.novell.com/svn/nam-demos/trunk/htdocs/digitalAirlines
+https://forgesvn1.novell.com/svn/nam-demos
+
+
+
+2006-10-18T17:28:07.811802Z
+5
+bfjeldst
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+fb1b5004-f61f-0410-baf8-ad0306648bfa
+
+medical.html
+file
+
+
+
+
+2006-10-25T17:08:06.000000Z
+7cd661b07532ea7f39c33a0b706b64b4
+2006-10-18T16:30:08.871970Z
+3
+bfjeldst
+
+images
+dir
+
+payroll.html
+file
+
+
+
+
+2006-10-25T17:08:06.000000Z
+fb563bfcb21576a2e7edcc6eb0f4e942
+2006-10-18T16:30:08.871970Z
+3
+bfjeldst
+
+vpn.html
+file
+
+
+
+
+2006-10-25T17:08:06.000000Z
+647e8b3fcf14aa7328f375ee93697c64
+2006-10-18T16:30:08.871970Z
+3
+bfjeldst
+
+sales
+dir
+
+index.php
+file
+
+
+
+
+2006-10-25T17:08:06.000000Z
+68c241a653ce13b988ab590e3ec754b4
+2006-10-18T17:28:07.811802Z
+5
+bfjeldst
+
+sales.php
+file
+
+
+
+
+2006-10-25T17:08:06.000000Z
+9376e23743008ce6ff9040337845a958
+2006-10-18T16:30:08.871970Z
+3
+bfjeldst
+

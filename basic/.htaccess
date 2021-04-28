@@ -1,0 +1,5 @@
+AuthType Basic
+AuthName "Basic Auth Required"
+AuthUserFile /etc/apache2/passwords
+Require user david
+

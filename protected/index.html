@@ -3,6 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="../css/main.css" />
     <title>Protected Authentication Pages</title>
   </head>
@@ -13,11 +19,23 @@
           ><img src="../images/logo.png" alt="Micro Focus" class="logo__image"
         /></a>
         <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="../da/index.php">Digital Airlines</a></li>
+          <li><a href="/" class="active">Home</a></li>
+          <li>
+            <a href="../da/index.php"
+              ><i class="fas fa-user-lock"></i> Digital Airlines</a
+            >
+          </li>
           <li><a href="../public">Public Pages</a></li>
-          <li><a href="../basic">Basic Auth Pages</a></li>
-          <li><a href="./protected" class="active">Protected Pages</a></li>
+          <li>
+            <a href="../basic"
+              ><i class="fas fa-user-lock"></i> Basic Auth Pages</a
+            >
+          </li>
+          <li>
+            <a href="./protected"
+              ><i class="fas fa-user-lock"></i> Protected Pages</a
+            >
+          </li>
         </ul>
       </header>
       <section class="side">
@@ -32,19 +50,22 @@
             <a
               href="https://www.microfocus.com/documentation/access-manager/5.0/"
               target="_blank"
-              >Online Documentation</a
+              ><i class="fas fa-link"></i> Online Documentation</a
             >
           </li>
+        </ul>
+        <p>Access Manager Lab</p>
+        <ul>
           <li>
             <a href="https://excs-s5220.excession.org/portal/" target="_blank"
-              >Lab Portal</a
+              ><i class="fas fa-link"></i> Lab Portal</a
             >
           </li>
           <li>
             <a
               href="https://excs-s5220.excession.org:8443/nps/servlet/portalservice"
               target="_blank"
-              >Lab Administration</a
+              ><i class="fas fa-link"></i> Lab Administration</a
             >
           </li>
         </ul>

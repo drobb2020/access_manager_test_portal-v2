@@ -1,0 +1,20 @@
+<html>
+<head>
+<title>Payroll Application</title>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<style type="text/css">
+<!--
+body {
+	background-image: url(images/backer2.gif);
+	background-repeat: repeat-x;
+}
+-->
+</style></head>
+<body bgcolor="#FFFFFF" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<!-- ImageReady Slices (digital_airlines_payroll.psd) -->
+<img src="images/digital_airlines_payroll.gif" alt="" width="747" height="700" border="0" usemap="#Map">
+<map name="Map"><area shape="rect" coords="22,5,264,65" href="digital_airlines.html">
+</map>
+<!-- End ImageReady Slices -->
+</body>
+</html>
